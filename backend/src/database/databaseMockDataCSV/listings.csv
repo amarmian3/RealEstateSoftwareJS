@@ -1,0 +1,11 @@
+title,description,channel,price_pennies,rent_frequency,bedrooms,bathrooms,property_type,floor_number,postcode,city,address_line,latitude,longitude
+"Bright 1-bed near Bank","South-facing, concierge, lift. Wet room.","RENT",225000,"PCM",1,1,"FLAT",12,"EC2V 7JN","London","12 High Street",51.514500,-0.088900
+"Penthouse with skyline view","Wraparound terrace, new kitchen.","SALE",87500000,"N_A",2,2,"FLAT",15,"E14 5AB","London","150 Canary Wharf",51.505400,-0.023500
+"Studio in city core","Compact, ideal pied-à-terre.","RENT",165000,"PCM",0,1,"STUDIO",10,"EC3A 7BX","London","3 Bishopsgate",51.515800,-0.080300
+"Spacious 2-bed with balcony","West-facing balcony, modern bathroom.","RENT",255000,"PCM",2,1,"FLAT",11,"SE1 2AA","London","22 Tower Bridge Rd",51.504300,-0.076600
+"Riverside loft","Exposed brick, double-height living.","SALE",69500000,"N_A",1,1,"FLAT",8,"SE1 9SG","London","1 River Walk",51.507900,-0.087700
+"City studio with concierge","24/7 concierge, gym access.","RENT",180000,"PCM",0,1,"STUDIO",14,"EC2M 7PY","London","10 Broad St",51.517200,-0.082100
+"Modern 3-bed apartment","Open-plan kitchen, two bathrooms.","SALE",105000000,"N_A",3,2,"FLAT",13,"E1 6AN","London","200 City Rd",51.524600,-0.078500
+"High-floor 1-bed","Great light, quiet aspect.","RENT",210000,"PCM",1,1,"FLAT",16,"EC1A 9PN","London","5 Barbican Way",51.520400,-0.095000
+"Skyline studio","Panoramic city views.","RENT",175000,"PCM",0,1,"STUDIO",18,"E1W 1AA","London","25 Dockside",51.507300,-0.065900
+"Canary Wharf 2-bed","Concierge, gym, pool.","SALE",82500000,"N_A",2,2,"FLAT",20,"E14 9AB","London","1 Canada Sq",51.504900,-0.019500
