@@ -6,3 +6,9 @@ To Do:
         returns a json dictionary of that
 3. Connect to a db to store this information
 4. Create a class to fetch + read from db.
+
+
+To Run Backend:
+    Create .env file with specific structure which will have an example in helpful_info
+    Grab values form .env from secrets manager - need to setup 
+        Ill make a script to auto run this given specific credentials.
