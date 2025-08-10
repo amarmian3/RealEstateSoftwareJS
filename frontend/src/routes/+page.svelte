@@ -210,7 +210,7 @@
 		<!-- LEFT: Steps List -->
 		<div class="w-full flex flex-col gap-6">
 			{#each steps as step, i}
-				<div
+				<button
 					on:click={() => (currentStep = i)}
 					class="cursor-pointer w-full max-w-full sm:max-w-[90%] md:max-w-[550px] mx-auto rounded-xl p-6 transition
 						{currentStep === i
@@ -218,7 +218,7 @@
 							: 'bg-white shadow-sm hover:shadow-md'}">
 					<h3 class="font-semibold text-[#3D0000] text-lg mb-1">{step.title}</h3>
 					<p class="text-sm text-[#5a2c2c] leading-snug">{step.description}</p>
-				</div>
+				</button>
 			{/each}
 		</div>
 
@@ -264,7 +264,7 @@
 
   {#each faqs as faq, i}
 		<div class="border-t border-red-200 py-6">
-			<div
+			<button
 				class="flex justify-between items-start cursor-pointer"
 				on:click={() => toggle(i)}
 			>
@@ -272,7 +272,7 @@
 				<span class="text-xl text-red-500">
 					{faq.open ? '−' : '+'}
 				</span>
-			</div>
+			</button>
 
 			{#if faq.open}
 				<p class="text-sm text-gray-700 mt-4 transition-opacity duration-300">
