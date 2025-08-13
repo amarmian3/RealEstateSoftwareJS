@@ -1,0 +1,13 @@
+listing_id,media_type,url,sort_order,caption
+1,IMAGE,"src\database\databaseMockDataCSV\images\listing1.jpeg",1,"Living room"
+1,FLOORPLAN,"src\database\databaseMockDataCSV\images\listing1floorplan.png",2,"Floorplan"
+2,IMAGE,"src\database\databaseMockDataCSV\images\listing2.jpeg",1,"Terrace"
+2,IMAGE,"src\database\databaseMockDataCSV\images\listing2.jpeg",2,"Kitchen"
+6,IMAGE,"src\database\databaseMockDataCSV\images\listing6.jpeg",1,"Gym access"
+3,IMAGE,"src\database\databaseMockDataCSV\images\listing3.jpeg",1,"Studio main"
+4,IMAGE,"src\database\databaseMockDataCSV\images\listing4.jpeg",1,"Balcony"
+5,IMAGE,"src\database\databaseMockDataCSV\images\listing5.jpeg",1,"Loft space"
+7,IMAGE,"src\database\databaseMockDataCSV\images\listing7.jpeg",1,"Open-plan"
+8,IMAGE,"src\database\databaseMockDataCSV\images\listing8.jpeg",1,"Bedroom"
+9,IMAGE,"src\database\databaseMockDataCSV\images\listing9.jpeg",1,"City view"
+10,IMAGE,"src\database\databaseMockDataCSV\images\listing10.jpeg",1,"Pool"
