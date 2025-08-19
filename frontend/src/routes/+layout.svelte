@@ -26,7 +26,7 @@
       		</a>
 		</li>
 		<li class="flex flex-col items-center flex-1">
-			<a href="/iphone_search" class="flex flex-col items-center">
+			<a href="/home" class="flex flex-col items-center">
 				<span>🔍</span>
         		<span>Search</span>
       		</a>
