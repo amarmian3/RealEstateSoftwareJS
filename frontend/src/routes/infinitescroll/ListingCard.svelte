@@ -1,6 +1,6 @@
-//Tenant view
-//NOTE: This code can be put into src/lib if the card components will be reused
-//This page is to bring in all the components from the backend whcih is iterated in page.svelte so there are multiple cards on the page all personalised for user
+<!-- Tenant view-->
+<!-- NOTE: This code can be put into src/lib if the card components will be reused-->
+<!--This page is to bring in all the components from the backend whcih is iterated in page.svelte so there are multiple cards on the page all personalised for user-->
 <script lang="ts">
     // Props — these will be filled from backend later
     export let id: string = '';                 // NOTE[backend]: listing.id

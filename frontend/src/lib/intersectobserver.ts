@@ -12,7 +12,7 @@ export function intersect(node: Element, opts: IntersectOpts = {}) {
     },
     {
       root: opts.root ?? null,
-      rootMargin: opts.rootMargin ?? '100px',
+      rootMargin: opts.rootMargin ?? '0px',
       threshold: opts.threshold ?? 0,
     }
   );

@@ -6,7 +6,7 @@
     // Tenant database You can make the search input reactive later
 	let query = '';
     let results =[];
-    // Placeholder for tenants data backedn
+    // Placeholder for tenants data backend
     async function searchTenants() {
         const res = await fetch(`/api/search?query=${encodeURIComponent(query)}`);
 		results = await res.json();
@@ -39,8 +39,8 @@
                 <img
                     //AMAR NOTE: link to back end database
                 />
-                <p //AMAR NOTE: link to back end database</p>
-                <p //AMAR NOTE: link to back end database</p>
+                <p //AMAR NOTE: link to back end database></p>
+                <p //AMAR NOTE: link to back end database></p>
             </div>
     
             <!-- Tenant 2 -->
@@ -48,7 +48,7 @@
                 <img
                     //AMAR NOTE: link to back end database
                 />
-                <p //AMAR NOTE: link to back end database</p>
+                <p //AMAR NOTE: link to back end database></p>
                 <p class="text-sm text-gray-600">32, Marketing Manager</p>
             </div>
         </div>

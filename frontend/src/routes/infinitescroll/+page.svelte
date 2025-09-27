@@ -1,5 +1,5 @@
-//Tenant view 
-//card elements are brought in from ListingCard and then for loop for multiple cards
+<!--Tenant view-->
+<!--Card elements are brought in from ListingCard and then "for loop"-ed for multiple cards-->
 
 <script lang="ts">
   import ListingCard from './ListingCard.svelte';
@@ -105,8 +105,9 @@
   </div>
 
   <!-- IntersectionObserver via action -->
-  <div> 
-    use:intersect={{ onEnter: loadMore, rootMargin: '300px 0px' }} aria-hidden="true" 
+  <div 
+    use:intersect={{ onEnter: loadMore, rootMargin: '0px 0px' }} 
+    aria-hidden="true">
   </div>
 
   <!-- No-JS fallback -->

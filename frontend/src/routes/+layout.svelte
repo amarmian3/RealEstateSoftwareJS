@@ -1,10 +1,10 @@
 <script lang="ts">
 	//Optional: you can add layout-specific JS here
 	import '../app.css';
-	let { children } = $props();
+	const { children } = $props();
 </script>
 
-<main>
+<main class="pb-24">
 {@render children()}   // This is where the content of the 'child' pages will be rendered
 </main>
 
@@ -17,24 +17,30 @@
 
 
 <!--Footer for Landlord -->
-<nav class="fixed bottom 0 left 0 right 0 z-50">
-	<ul class="flex justify-between items-center">
+<nav class="fixed w-[72px] top-0 left-0 z-50 h-screen bg-white border-r border-gray-200">
+	<ul class="mt-4 flex flex-col space-y-4 items-center">
 		<li class="flex flex-col items-center flex-1">
 			<a href="/" class="flex flex-col items-center">
-				<span>🏠</span>
+				<span>🏠</span> <!---main +page.svelte---->
         		<span>Home</span>
       		</a>
 		</li>
 		<li class="flex flex-col items-center flex-1">
-			<a href="/home" class="flex flex-col items-center">
-				<span>🔍</span>
-        		<span>Search</span>
+			<a href="/chat" class="flex flex-col items-center">
+				<span>💬</span> <!---main +page.svelte---->
+        		<span>Chats</span>
       		</a>
 		</li>
 		<li class="flex flex-col items-center flex-1">
-			<a href="/list" class="flex flex-col items-center">
+			<a href="/infinitescroll" class="flex flex-col items-center">
+				<span>🔍</span>
+        		<span>Inf Scroll</span>
+      		</a>
+		</li>
+		<li class="flex flex-col items-center flex-1">
+			<a href="/Explore" class="flex flex-col items-center">
 				<span>➕</span>
-        		<span class="font-bold text-bold">List</span>
+        		<span class="font-bold text-bold">Explore</span>
       		</a>
 		</li>
 
